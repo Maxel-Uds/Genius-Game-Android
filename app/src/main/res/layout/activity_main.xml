@@ -8,11 +8,26 @@
 
     <Button
         android:id="@+id/initGame"
-        android:layout_width="289dp"
-        android:layout_height="61dp"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
         android:text="Iniciar Jogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <Button
+        android:id="@+id/go_instructions"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="186dp"
+        android:text="Instruções"
+        app:layout_constraintBottom_toTopOf="@+id/initGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
 </androidx.constraintlayout.widget.ConstraintLayout>
